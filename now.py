@@ -12,7 +12,7 @@ to take care of you till the last day of my life, and I promise you that I will 
 And I promise that we will get married eshallah soon. I LOVE YOU SEMSEM ❤️❤️. Here is the most recent picture of us on my phone. 
             """)
     st.header("how its goinggg!!")
-    st.image("./images/now.jpg", caption="2/6/2024")
+    st.image("./Images/now.jpg", caption="2/6/2024")
 
     st.title("Enjoy London 7ayatiiiii ❤️❤️❤️❤️🌹🌹😘😘😘")
     
