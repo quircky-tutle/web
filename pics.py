@@ -12,6 +12,6 @@ def app():
              Look how far we've come !!!
              """)
     st.header("how it started!!")
-    st.image("./images/first.jpg", caption="22/8/2023")
+    st.image("./Images/first.jpg", caption="22/8/2023")
     
 
