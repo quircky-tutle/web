@@ -23,7 +23,7 @@ before we get going, let me remind you that, I LOVE YOUUUUU MORE THAN ANYTHING a
 #--------------------------------------------------------------------------------------------------
     st.header("First fit check")
     st.write("you had me leave the coffe house for a while just to admire the look")
-    st.image("./Images/1st_fit.png",caption="18/8/2023",width=300)
+    st.image("./Images/1st_fit.PNG",caption="18/8/2023",width=300)
 #--------------------------------------------------------------------------------------------------------
     st.header("First time seeing baby semsem")
     st.write("The cutest baby to ever grace planet earth")
@@ -41,11 +41,11 @@ before we get going, let me remind you that, I LOVE YOUUUUU MORE THAN ANYTHING a
     st.write("where we celebrated anniversaries, laughed, ate, fought, and most of our lovely times are spent here")
     col1, col2,col3= st.columns(3)  # Creates columns with equal width
     with col1:
-        st.image("./Images/car1.jpeg", width=180,caption="4/1/2024")
+        st.image("./Images/car1.JPEG", width=180,caption="4/1/2024")
     with col2:
-        st.image("./Images/car2.jpeg", width=170,caption="3/12/2023")
+        st.image("./Images/car2.JPEG", width=170,caption="3/12/2023")
     with col3:
-        st.image("./Images/car3.jpg", width=160,caption="7/1/2024")
+        st.image("./Images/car3.JPG", width=160,caption="7/1/2024")
 
 
     st.header("Our 5th month anniversary")
@@ -88,7 +88,7 @@ before we get going, let me remind you that, I LOVE YOUUUUU MORE THAN ANYTHING a
 #----------------------------------------------------------------------------------------------------------
     st.header("The most beatiful woman to ever walk Earth")
     st.write("I love this picture a looottttt")
-    st.image("./Images/lovely.jpeg",width=300,caption="20/12/2023")
+    st.image("./Images/lovely.JPEG",width=300,caption="20/12/2023")
 #----------------------------------------------------------------------------------------------------------
     st.title("Our GP photos")
     st.header("GP1 pics")
@@ -110,7 +110,7 @@ before we get going, let me remind you that, I LOVE YOUUUUU MORE THAN ANYTHING a
     with col1:
         st.image("./Images/dis.jpg",width=300,caption="31/5/2024")
     with col2:
-        st.image("./Images/dis2.jpeg",width=300,caption="31/5/2024")
+        st.image("./Images/dis2.JPEG",width=300,caption="31/5/2024")
 
     st.header("this nearly concludes the journey we have been through")
     st.write(r"there is still more if you could please scroll to the top and check the 'and how it is going' tab")
