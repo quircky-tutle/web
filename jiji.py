@@ -9,3 +9,6 @@ def app():
         st.image("./Images/joud.jpg",width=200)
     with col3:
         st.image("./Images/farah.jpg",width=200)
+
+    st.header("Happy anniversary 7abibet 2albii ❤️❤️❤️❤️❤️❤️")
+    st.header("I love you to the moon and back 😘😘😘😘")
