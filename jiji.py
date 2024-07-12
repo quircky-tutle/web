@@ -8,4 +8,4 @@ def app():
     with col2:
         st.image("./Images/joud.jpg",width=200)
     with col3:
-        st.iamge("./Images/farah.jpg",width=200)
+        st.image("./Images/farah.jpg",width=200)
