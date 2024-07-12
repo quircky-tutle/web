@@ -108,9 +108,9 @@ before we get going, let me remind you that, I LOVE YOUUUUU MORE THAN ANYTHING a
     col1,col2=st.columns(2)
 
     with col1:
-        st.image("./Images/dis.jpg",width=300,caption="31/5/2024")
+        st.image("./Images/dis.jpg",width=300,caption="30/5/2024")
     with col2:
-        st.image("./Images/dis2.JPEG",width=300,caption="31/5/2024")
+        st.image("./Images/dis2.JPEG",width=300,caption="30/5/2024")
 
     st.header("this nearly concludes the journey we have been through")
     st.write(r"there is still more if you could please scroll to the top and check the 'and how it is going' tab")
