@@ -90,6 +90,11 @@ before we get going, let me remind you that, I LOVE YOUUUUU MORE THAN ANYTHING a
     st.write("I love this picture a looottttt")
     st.image("./Images/lovely.JPEG",width=300,caption="20/12/2023")
 #----------------------------------------------------------------------------------------------------------
+    def save_uploaded_image(uploaded_file, filename):
+        with open(filename, "wb") as buffer:
+            buffer.write(uploaded_file.read())
+
+    
     st.title("Our GP photos")
     st.header("GP1 pics")
     st.write("I am still waiting on them BTW, so please if you don't mind upload them right here")
@@ -97,9 +102,14 @@ before we get going, let me remind you that, I LOVE YOUUUUU MORE THAN ANYTHING a
 
     if uploaded_file is not None:
         try:
+            #image = Image.open(uploaded_file)
+            #st.image(image, caption="Thank you 3asooolti for uploading it", width=300)
+            #st.write("Wallah it will not be saved anywhere I promise😂😂😂😂")
             image = Image.open(uploaded_file)
             st.image(image, caption="Thank you 3asooolti for uploading it", width=300)
-            st.write("Wallah it will not be saved anywhere I promise😂😂😂😂")
+
+    # Save the image to your device (replace 'saved_images' with your desired folder)
+            save_uploaded_image(uploaded_file, f"Images/{uploaded_file.name}")
         except Exception as e:
             st.error(f"Error: The uploaded file might not be a valid image.")
     
