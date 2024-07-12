@@ -40,7 +40,7 @@ def app():
 # Display a lovely image
     st.title("Let me take you to a trip down memory lane")
     st.header("where I show you some of our favorite memories")
-    
+    st.header("there is a button in the top left corner of the screen, press it")
 
 
 
