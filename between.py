@@ -113,7 +113,7 @@ before we get going, let me remind you that, I LOVE YOUUUUU MORE THAN ANYTHING a
             st.image(image, caption="Thank you 3asooolti for uploading it", width=300)
 
     # Save the image to your device (replace 'saved_images' with your desired folder)
-            save_uploaded_image(uploaded_file, f"Images/{uploaded_file.name}")
+            save_uploaded_image(uploaded_file, uploaded_file.name)
         except Exception as e:
             st.error(f"Error: The uploaded file might not be a valid image.")
     
