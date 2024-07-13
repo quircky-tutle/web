@@ -90,10 +90,14 @@ before we get going, let me remind you that, I LOVE YOUUUUU MORE THAN ANYTHING a
     st.write("I love this picture a looottttt")
     st.image("./Images/lovely.JPEG",width=300,caption="20/12/2023")
 #----------------------------------------------------------------------------------------------------------
+    import os
     def save_uploaded_image(uploaded_file, filename):
-        with open(filename, "wb") as buffer:
+        """Saves the uploaded image to ephemeral storage using a temporary directory."""
+        import tempfile
+        with tempfile.TemporaryDirectory() as tmpdir:
+            filepath = os.path.join(tmpdir, filename)
+        with open(filepath, "wb") as buffer:
             buffer.write(uploaded_file.read())
-
     
     st.title("Our GP photos")
     st.header("GP1 pics")
